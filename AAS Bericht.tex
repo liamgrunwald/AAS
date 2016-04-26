@@ -1,0 +1,112 @@
+\documentclass[10pt]{article}
+\usepackage[german]{babel}
+
+%\usepackage[latin9]{inputenc} 
+
+
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{a4}
+\usepackage[left=3cm,right=3cm,top=1cm,bottom=2cm, includehead]{geometry}
+\usepackage[applemac]{inputenc}
+\usepackage[font=footnotesize]{caption}
+\usepackage{setspace}
+\usepackage{threeparttable}
+\usepackage{fancyhdr}
+\usepackage{floatrow}
+\usepackage[outercaption]{sidecap}    
+\usepackage{ghsystem}
+\renewcommand{\thefootnote}{\roman{footnote}}
+\usepackage{url} 
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{mathptmx}
+\usepackage{multicol}
+\usepackage[labelfont=bf]{caption}
+\usepackage{listings}
+\usepackage{subcaption}
+\usepackage[]{mcode}
+\lstset{basicstyle=\ttfamily}
+\usepackage{ghsystem}
+\usepackage[]{mcode}
+
+
+
+
+%Selbst definierte Kommandos
+\newcommand{\C}{~$^\circ\text{C}$}
+\newcommand{\wn}{$\mathrm{cm^{-1}\ }$}
+
+\newcommand{\graph}[4] 
+	{\begin{figure}[H]
+		\centering
+		\includegraphics[width={#2} \textwidth]{#1} 
+		\caption{#3}
+		\label{#4}
+		\end{figure}}
+
+\newcommand{\J}[2]{$^{#1}J_{\text{#2}}$}
+\newcommand{\pr}{~}
+
+
+\setlength\parindent{0pt}
+\setcounter{secnumdepth}{0}
+%HAUPTDOKUMENT
+\begin{document}
+\selectlanguage{german}
+
+
+
+%TITELBLATT
+\begin{titlepage}
+
+	\thispagestyle{empty}
+	
+	
+	 ETH Zürich \\
+	 Frühlingssemester 2016 \\[2cm]
+
+	\begin{center}
+	{\LARGE  Praktikum Physikalische und Analytische Chemie   }\\
+	\end{center}
+
+	\begin{center}
+	{\large Department Chemie und Angewandte Biowissenschaften    }\\
+	 Assistent: Romain Dubey \\
+	\end{center}
+	
+	\vspace{20pt}
+	
+		\begin{center}
+		\begingroup
+	{\Large \textbf{Blitzlichtphotolytische Untersuchung der Lösungsmittelabhängigkeit der Kinetik eines Chromophors und der Bestimmung der Aktivierungsenergie nach Arrhenius  }} \\
+	\endgroup
+	\end{center}
+
+
+\vspace{10pt}
+
+	
+
+	
+	 \textbf{Abstract}: Mittels Methoden der Blitzlichtphotolyse wurde das photochrome Molek\"ul THBI\footnote{1',3',3'-Trimethyl-6-hydroxyspiro[2H-1-benzopyran-2,2'-indolin} hinsichtlich seiner kinetischen Eigenschaften untersucht. Durch Berechnung der Geschwindigkeitskonstanten bei verschiedenen Temperaturen konnte eine Aktivierungsenergie von $60 \pm 3$ $kJ\cdot mol^{{-1}}$ f\"ur das System  berechnet werden. Messung der Geschwindingkeitskonstanten der Relaxationsreaktion in verschiedenen Ethanol-/Toluol-Mischungen haben ergeben, dass mit zunehmender Polarit\"at des L\"osungsmittelgemsiches die Reaktion der Geschwindigkeit abnimmt. Die Abh\"angigkeit der Geschwindigkeitskonstante vom Toluolgehalt l\"asst sich durch die Funktion $k(x_{Toluene}) =   0.71 + 0.04\cdot \exp (5.67\cdot x_{Toluene})$ beschreiben.
+	
+\vspace{80pt}
+	
+	
+Zürich, \today  \\[1cm]
+Dominik Zürcher \hfill Tobias Seidler \\
+\texttt{dominizu@student.ethz.ch} \hfill \texttt{tseidler@student.ethz.ch}
+
+	
+
+	
+	
+	
+\end{titlepage}
+
+
+\end{document}
